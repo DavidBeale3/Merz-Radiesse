@@ -53,15 +53,31 @@
         }
 
         .mobile-width{
-          width: 100%;
+          width: 100% !important;
+          align: center !important;
         }
 
+        .mobile-align{
+          padding-left: 25px !important;
+          padding-top: 40px !important;
+        }
+
+        .mobile-align-2{
+          padding-left: 25px !important;
+        }
 
       }
 
 
 
+        .desktop-align{
+          padding-left: 0px;
+          padding-top: 60px;
+        }
 
+        .desktop-align-2{
+          padding-left: 0px;
+        }
 
       body {
         background-color: #E8E9EA;
@@ -137,7 +153,7 @@
 
      <mj-section mj-class="sectionClass">
       <mj-column mj-class="columnClass">
-        <mj-image padding="0" src="./img/Header-image.png" alt="RFA Creative Digital - Full-service Veeva Content Partner"/>
+        <mj-image padding="0" src="./img/Header-image.png" alt="INTERNAL USE ONLY - Webinar invitation RADIESSE®: Competitor Defence"/>
       </mj-column>                
     </mj-section>
     
@@ -169,7 +185,7 @@
             </td>
           </tr>
   </mj-table>
-  <mj-button align="left" font-family="'Aeonik Pro', Arial" font-weight="bold" font-size="26px" background-color="#173757" color="white" href="https://www.google.com">
+  <mj-button align="left" font-family="'Aeonik Pro', Arial" font-weight="bold" font-size="26px" background-color="#173757" color="white" href="https://events.teams.microsoft.com/event/062b6cc8-1027-4d4e-96c2-7a82f14f5694@d48bff22-6d84-4942-a4fb-e6b9bcd0ac00">
     REGISTER NOW
   </mj-button>
   <mj-text>
@@ -184,14 +200,14 @@
     <mj-column class="mobile-width"
     width="30%"
     >
-        <mj-image class="mobile-center" width="145px" align="left" src="./img/Dr-Gabriela-Casabona.png" alt="Dr Gabriela Casabona headshot"/>
+        <mj-image class="mobile-center" width="145px" src="./img/Dr-Gabriela-Casabona.png" alt="Dr Gabriela Casabona headshot"/>
     </mj-column>
     <mj-column
     width="70%"
     >
         <mj-text 
+        class="mobile-align desktop-align"
         padding-top="60px"
-        padding-left="0px"
         >
           <div class="mobile-text-2 mobile-center" align="left"> 
             <span class="mobile-text-2" style="font-weight: bold; font-size: 1.4em;">Dr Gabriela Casabona</span>
@@ -203,7 +219,7 @@
     <mj-column>
     <mj-text>
     <div class="mobile-text">
-        Dr Gabriela Casabona has decades of experience in aesthetic medicine, with expertize in both surgical and nonsurgical treatments. She had her own aesthetic practice in her home country of Brazil for 18 years and is now the Medical Director for the aesthetics and skin cancer departments at Ocean Clinic, Marbella, where dermal fillers remain a core part of her work. Dr Casabona also holds the title of Director of Clinical Research, a testament to her many published papers on the topics of combined treatment techniques and anti-aging procedures. She has collaborated with respected institutions, such as the Universidade ABC-Brazil, and has been working with Merz Aesthetics since 2008.
+        Dr Gabriela Casabona has decades of experience in aesthetic medicine, with expertize in both surgical and non-surgical treatments. She had her own aesthetic practice in her home country of Brazil for 18 years and is now the Medical Director for the aesthetics and skin cancer departments at Ocean Clinic, Marbella, where dermal fillers remain a core part of her work. Dr Casabona also holds the title of Director of Clinical Research, a testament to her many published papers on the topics of combined treatment techniques and anti-aging procedures. She has collaborated with respected institutions, such as the Universidade ABC-Brazil, and has been working with Merz Aesthetics since 2008.
     </div>
     </mj-text>
 </mj-column>
@@ -223,14 +239,14 @@
     <mj-column
     width="20%"
     >
-        <mj-image width="60px" align="left" src="./img/icon-1.png" alt="Syringe icon"/>
+        <mj-image width="60px" src="./img/icon-1.png" alt="Syringe icon"/>
     </mj-column>
     <mj-column
     width="80%"
     >
         <mj-text 
+        class="mobile-align-2 desktop-align-2"
         padding-top="30px"
-        padding-left="0px"
         >
           <div class="mobile-text mobile-center" align="left"> 
             What is regenerative biostimulation?
@@ -242,14 +258,14 @@
     <mj-column
     width="20%"
     >
-        <mj-image width="60px" align="left" src="./img/icon-2.png" alt="Syringe icon"/>
+        <mj-image width="60px" src="./img/icon-2.png" alt="Cells icon"/>
     </mj-column>
     <mj-column
     width="80%"
     >
         <mj-text 
+        class="mobile-align-2 desktop-align-2"
         padding-top="30px"
-        padding-left="0px"
         >
           <div class="mobile-text mobile-center" align="left"> 
             What makes RADIESSE<sup>®</sup> unique?
@@ -261,17 +277,17 @@
     <mj-column
     width="20%"
     >
-        <mj-image width="60px" align="left" src="./img/icon-3.png" alt="Syringe icon"/>
+        <mj-image width="60px" src="./img/icon-3.png" alt="Balance icon"/>
     </mj-column>
     <mj-column
     width="80%"
     >
         <mj-text 
+        class="mobile-align-2 desktop-align-2"
         padding-top="19px"
-        padding-left="0px"
         >
           <div class="mobile-text mobile-center" align="left"> 
-            How does RADIESSE<sup>®</sup> compare to Profhilo<sup>®</sup>, a different kind of competitor?
+            How does RADIESSE<sup>®</sup> compare to Profhilo<sup>®</sup>, a&nbsp;different kind of competitor?
           </div>
         </mj-text>
     </mj-column>
@@ -303,7 +319,7 @@
             </td>
           </tr>
   </mj-table>
-  <mj-button align="left" font-family="'Aeonik Pro', Arial" font-weight="bold" font-size="26px" background-color="#173757" color="white" href="https://www.google.com">
+  <mj-button align="left" font-family="'Aeonik Pro', Arial" font-weight="bold" font-size="26px" background-color="#173757" color="white" href="https://events.teams.microsoft.com/event/062b6cc8-1027-4d4e-96c2-7a82f14f5694@d48bff22-6d84-4942-a4fb-e6b9bcd0ac00">
     REGISTER NOW
   </mj-button>
 </mj-column>
@@ -315,7 +331,7 @@
       <mj-text>
     <div class="mobile-text">
         Kind regards,<br>
-        EMEA Radiesse Brand Team
+        EMEA RADIESSE<sup>®</sup> Brand Team
     </div>
     </mj-text>
       <mj-text
@@ -339,10 +355,10 @@
     vertical-align="bottom"
     >
     <mj-column>
-        <mj-image width="190px" align="left" href="https://www.rfa.co.uk" src="./img/RADIESSE-logo.png" alt="RADIESSE logo"/>
+        <mj-image width="190px" align="left" src="./img/RADIESSE-logo.png" alt="RADIESSE logo"/>
     </mj-column>
     <mj-column>
-        <mj-image width="180px" align="right" href="https://www.rfa.co.uk" src="./img/Merz-Aesthetics-Logo.png" alt="Merz Aesthetics logo"/>
+        <mj-image width="180px" align="right" src="./img/Merz-Aesthetics-Logo.png" alt="Merz Aesthetics logo"/>
     </mj-column>
     </mj-section>    
 

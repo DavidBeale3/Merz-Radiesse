@@ -1,0 +1,363 @@
+<mjml lang="en" 
+      xmlns="http://www.w3.org/1999/xhtml" 
+      xmlns:v="urn:schemas-microsoft-com:vml" 
+      xmlns:o="urn:schemas-microsoft-com:office:office">
+  <mj-head>
+        <!--[if mso | IE]>
+          <xml>
+              <o:OfficeDocumentSettings>
+                  <o:AllowPNG/>
+                  <o:PixelsPerInch>96</o:PixelsPerInch>
+              </o:OfficeDocumentSettings>
+          </xml>
+      <![endif]-->
+      <mj-attributes>
+        <mj-all 
+          font-family="'Aeonik Pro', Arial, sans-serif, 'Helvtica Neue', 'Helvtica'" font-size="14px" color="#173757"
+          line-height="1.5"
+          />
+ 
+        <mj-class
+          name="sectionClass"
+          background-color="#ffffff"
+          padding="0"
+          margin="0"
+        />
+        <mj-class
+          name="columnClass"
+          background-color="#ffffff"
+          padding="0"
+          margin="0"
+        />
+
+      </mj-attributes>
+      <mj-style>
+
+      @media (max-width:480px) {
+
+        .mobile-text{
+          font-size: 1.2em !important;
+        }
+
+        .mobile-text-2{
+          font-size: 1.3em !important;
+        }
+
+        .mobile-text-3{
+          font-size: 1.1em !important;
+        }
+
+        .mobile-center{
+          text-align: center !important;
+          align: center !important;
+        }
+
+        .mobile-width{
+          width: 100% !important;
+          align: center !important;
+        }
+
+        .mobile-align{
+          padding-left: 25px !important;
+          padding-top: 40px !important;
+        }
+
+        .mobile-align-2{
+          padding-left: 25px !important;
+        }
+
+      }
+
+
+
+        .desktop-align{
+          padding-left: 0px;
+          padding-top: 60px;
+        }
+
+        .desktop-align-2{
+          padding-left: 0px;
+        }
+
+      body {
+        background-color: #E8E9EA;
+      }
+
+      sup {
+        line-height: 0;
+        font-size: 70%;
+      }
+      a {
+        text-decoration: underline;
+        color: inherit;
+      }
+
+       ol {
+        list-style-position:outside;
+        padding-left:2.5%;
+        margin-top:0;
+        }
+      /*
+      ol li {
+        padding: 0 0 0 2%;
+      } */ 
+
+      @media print {
+
+.moz-text-html .mj-column-per-100 {
+      width: 100% !important;
+      max-width: 100%;
+    }
+
+    .moz-text-html .mj-column-per-47-5 {
+      width: 47.5% !important;
+      max-width: 47.5%;
+    }
+
+    .moz-text-html .mj-column-per-2 {
+      width: 2% !important;
+      max-width: 2%;
+    }
+
+    .moz-text-html .mj-column-per-50 {
+      width: 50% !important;
+      max-width: 50%;
+    }
+
+    .mj-column-per-100 {
+        width: 100% !important;
+        max-width: 100%;
+      }
+
+      .mj-column-per-47-5 {
+        width: 47.5% !important;
+        max-width: 47.5%;
+      }
+
+      .mj-column-per-2 {
+        width: 2% !important;
+        max-width: 2%;
+      }
+
+      .mj-column-per-50 {
+        width: 50% !important;
+        max-width: 50%;
+      }
+      }
+
+
+    </mj-style>
+  </mj-head>
+
+  <mj-body>
+
+     <mj-section mj-class="sectionClass">
+      <mj-column mj-class="columnClass">
+        <mj-image padding="0" src="./img/Header-image.png" alt="RFA Creative Digital - Full-service Veeva Content Partner"/>
+      </mj-column>                
+    </mj-section>
+    
+    <mj-section background-color="white" padding-top="8px">
+    <mj-column>
+    <mj-text>
+    <div class="mobile-text">
+        Dear colleagues,
+        <br>
+        <br>
+        You are warmly invited to the RADIESSE<sup>®</sup> Competitor Defence webinar. In this webinar, Dr Gabriela Casabona will be sharing her expert knowledge on how to best emphasize RADIESSE<sup>®</sup>’s key benefits, support them with clear and impactful facts and comparisons, and demonstrate why RADIESSE<sup>®</sup> stands out from competitors.
+    </div>
+    </mj-text>
+      <mj-table
+        width="100%"
+        font-size="16px"
+        color="#1e1f1f;"
+        padding-bottom="20px"
+        >
+         <tr>
+            <td>
+             <div class="mobile-text">
+                <span class="mobile-text-2" style="color: #00a6c7; font-weight: bold; font-size: 1.1em;">
+                RADIESSE<sup>®</sup> Competitor Defence webinar<br>
+                Tuesday 31<sup>st</sup> October 2023<br>
+                10:00–12:00 CET
+                </span>
+             </div>
+            </td>
+          </tr>
+  </mj-table>
+  <mj-button align="left" font-family="'Aeonik Pro', Arial" font-weight="bold" font-size="26px" background-color="#173757" color="white" href="https://events.teams.microsoft.com/event/062b6cc8-1027-4d4e-96c2-7a82f14f5694@d48bff22-6d84-4942-a4fb-e6b9bcd0ac00">
+    REGISTER NOW
+  </mj-button>
+  <mj-text>
+    <div class="mobile-text">
+        Please note that the webinar will be recorded. This recording will then be shared shortly after the event.
+    </div>
+    </mj-text>
+</mj-column>
+</mj-section>
+
+<mj-section background-color="#d2ecf3" padding-top="8px" padding-bottom="10px">
+    <mj-column class="mobile-width"
+    width="30%"
+    >
+        <mj-image class="mobile-center" width="145px" src="./img/Dr-Gabriela-Casabona.png" alt="Dr Gabriela Casabona headshot"/>
+    </mj-column>
+    <mj-column
+    width="70%"
+    >
+        <mj-text 
+        class="mobile-align desktop-align"
+        >
+          <div class="mobile-text-2 mobile-center" align="left"> 
+            <span class="mobile-text-2" style="font-weight: bold; font-size: 1.4em;">Dr Gabriela Casabona</span>
+          </div>
+        </mj-text>
+    </mj-column>
+</mj-section>
+<mj-section background-color="#d2ecf3" padding-top="0px">
+    <mj-column>
+    <mj-text>
+    <div class="mobile-text">
+        Dr Gabriela Casabona has decades of experience in aesthetic medicine, with expertize in both surgical and nonsurgical treatments. She had her own aesthetic practice in her home country of Brazil for 18 years and is now the Medical Director for the aesthetics and skin cancer departments at Ocean Clinic, Marbella, where dermal fillers remain a core part of her work. Dr Casabona also holds the title of Director of Clinical Research, a testament to her many published papers on the topics of combined treatment techniques and anti-aging procedures. She has collaborated with respected institutions, such as the Universidade ABC-Brazil, and has been working with Merz Aesthetics since 2008.
+    </div>
+    </mj-text>
+</mj-column>
+</mj-section>
+
+
+<mj-section background-color="white" padding-top="8px" padding-bottom="0px">
+    <mj-column>
+  <mj-text>
+    <div class="mobile-text-2" align="left"> 
+            <span class="mobile-text-2" style="font-weight: bold; font-size: 1.4em; color: #00a6c7;">Webinar overview</span>
+          </div>
+    </mj-text>
+</mj-column>
+</mj-section>
+<mj-section background-color="white" padding-top="0px" padding-bottom="0px">
+    <mj-column
+    width="20%"
+    >
+        <mj-image width="60px" src="./img/icon-1.png" alt="Syringe icon"/>
+    </mj-column>
+    <mj-column
+    width="80%"
+    >
+        <mj-text 
+        padding-top="30px"
+        >
+          <div class="mobile-text mobile-center mobile-align-2 desktop-align-2" align="left"> 
+            What is regenerative biostimulation?
+          </div>
+        </mj-text>
+    </mj-column>
+</mj-section>
+<mj-section background-color="white" padding-top="0px" padding-bottom="0px">
+    <mj-column
+    width="20%"
+    >
+        <mj-image width="60px" src="./img/icon-2.png" alt="Syringe icon"/>
+    </mj-column>
+    <mj-column
+    width="80%"
+    >
+        <mj-text 
+        padding-top="30px"
+        >
+          <div class="mobile-text mobile-center mobile-align-2 desktop-align-2" align="left"> 
+            What makes RADIESSE<sup>®</sup> unique?
+          </div>
+        </mj-text>
+    </mj-column>
+</mj-section>
+<mj-section background-color="white" padding-top="0px">
+    <mj-column
+    width="20%"
+    >
+        <mj-image width="60px" src="./img/icon-3.png" alt="Syringe icon"/>
+    </mj-column>
+    <mj-column
+    width="80%"
+    >
+        <mj-text 
+        padding-top="19px"
+        >
+          <div class="mobile-text mobile-center mobile-align-2 desktop-align-2" align="left"> 
+            How does RADIESSE<sup>®</sup> compare to Profhilo<sup>®</sup>, a&nbsp;different kind of competitor?
+          </div>
+        </mj-text>
+    </mj-column>
+</mj-section>
+
+
+<mj-section background-color="#d2ecf3" padding-top="8px">
+    <mj-column>
+    <mj-text>
+    <div class="mobile-text">
+        <span class="mobile-text-2" style="font-weight: bold; font-size: 1.4em;">Question and answer</span><br>
+        Short question and answer sessions will follow each section of the webinar. Two questions will be selected per section to be answered during the webinar. The rest of the questions will be collected and responded to in post-webinar communications.
+    </div>
+    </mj-text>
+      <mj-table
+        width="100%"
+        font-size="16px"
+        color="#1e1f1f;"
+        padding-bottom="20px"
+        >
+         <tr>
+            <td>
+             <div class="mobile-text">
+                <span class="mobile-text-2" style="color: #173757; font-weight: bold; font-size: 1.1em;">
+                Tuesday 31<sup>st</sup> October 2023<br>
+                10:00–12:00 CET
+                </span>
+             </div>
+            </td>
+          </tr>
+  </mj-table>
+  <mj-button align="left" font-family="'Aeonik Pro', Arial" font-weight="bold" font-size="26px" background-color="#173757" color="white" href="https://events.teams.microsoft.com/event/062b6cc8-1027-4d4e-96c2-7a82f14f5694@d48bff22-6d84-4942-a4fb-e6b9bcd0ac00">
+    REGISTER NOW
+  </mj-button>
+</mj-column>
+</mj-section>
+
+    <mj-section mj-class="sectionClass" padding-top="25px">
+      <mj-column
+      >
+      <mj-text>
+    <div class="mobile-text">
+        Kind regards,<br>
+        EMEA RADIESSE<sup>®</sup> Brand Team
+    </div>
+    </mj-text>
+      <mj-text
+      font-size="12px"
+      >
+      <div class="mobile-text">
+      <b>Abbreviations</b>
+      <br>
+      CET, Central European Time.
+      <br><br>
+      <b>This email is only intended for the original recipient to whom it was sent. Please do not forward this email onto others.<b>
+      </div>
+    </mj-text>
+    </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="sectionClass"
+    background-color="#ffffff"
+    padding-top="35px"
+    padding-bottom="25px"
+    vertical-align="bottom"
+    >
+    <mj-column>
+        <mj-image width="190px" align="left" src="./img/RADIESSE-logo.png" alt="RADIESSE logo"/>
+    </mj-column>
+    <mj-column>
+        <mj-image width="180px" align="right" src="./img/Merz-Aesthetics-Logo.png" alt="Merz Aesthetics logo"/>
+    </mj-column>
+    </mj-section>    
+
+
+  </mj-body>
+</mjml>
